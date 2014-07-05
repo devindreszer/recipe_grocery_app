@@ -1,31 +1,31 @@
-## OBJECT MODEL
-# user
-email
-password
+# Object Model
+# User
+* email
+* password
 
-# recipe
-belongs_to :user
-has_many :ingredients
-name
-picture
-rating
-servings
-prep time
-custom
-active
-cookbook
+## Recipe
+* belongs_to :user
+* has_many :ingredients
+* name
+* image
+* rating
+* servings
+* prep_time
+* is_custom
+* is_active
+* in_cookbook
 
-# ingredient
-belongs_to recipe
-quantity
-measurement
-name
-alternate ingredient?
+## Ingredient
+* belongs_to recipe
+* quantity
+* measurement
+* name
+* alternate_ingredient?
 
-# grocery_list
-has many :ingredients
-has many :recipes (can be nil)
-quantity
-measurement
-name
-purchased/own
+## Grocery_list
+* has_many :ingredients
+* has_many :recipes (can be nil)
+* quantity
+* measurement
+* name
+* is_purchased

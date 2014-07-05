@@ -1,7 +1,7 @@
-## User Stories
+# User Stories
 Below are prelimainary user stories to be used in TDD
 
-# Searching Yummly
+## Searching Yummly
 As a non-registered user,
 When I visit the homepage,
 I want to see a description of the application,
@@ -17,7 +17,7 @@ When I click on a recipe from the homepage,
 I want to be able to see more information about the recipe,
 So that I can see if I would like to cook the dish
 
-# My Active Recipes List
+## My Active Recipes List
 As a signed in user,
 When I click add a recipe from it's details page,
 I want it to be added to my active recipe list,
@@ -48,7 +48,7 @@ When I visit my active recipe list page,
 I want to be able to save an item to my cookbook,
 So that I can remove it from my active recipe list but have it saved for future cooking
 
-# My Cookbook
+## My Cookbook
 As a signed in user,
 When I visit my cookbook page,
 I want to see all of the recipes that I have saved,
@@ -79,7 +79,7 @@ When I click add a recipe from my cookbook,
 I want it to be added to my active recipe list,
 So that I can get a dynamic grocery list based off the ingredients
 
-# My Grocery List
+## My Grocery List
 As a signed in user,
 When I visit the grocery list page,
 I want to see a list of all the ingredients that I need to make ONLY my active recipes (with the ones I don't have on top)
@@ -90,7 +90,7 @@ When I visit the grocery list page,
 I want to be able to mark ingredients as (purchased or in pantry)
 So that I am able to only purchase the ingredients that I need
 
-# Additional Functionality
+## Additional Functionality
 As a signed in user,
 When I click on create my own from my (active recipe list or cookbook) page,
 I want to be able to fill in a form to create my own recipe,
@@ -102,4 +102,5 @@ I want to be able to add/remove random items that are not from a recipe,
 So that I can have a grocery list that includes extra items
 
 Allow users to rate their cookbook recipes
+
 Tie in nutrional facts, grocery categorization, and food logging
