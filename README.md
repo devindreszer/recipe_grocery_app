@@ -1,13 +1,13 @@
-# HomeCooker
+# SousChef
 
 Customized recipes, personal cookbook, and a dynamic grocery list. Cooking made simpler.
 
 ## Features
 * Find recipes from Yummly
-* Add recipes to their active recipe list or create their own recipe
-* Customize recipes to their dietary or palate needs
-* Save recipes they like to their cookbook
-* Get a dynamic grocery list of required ingredients based off active recipes
+* Add recipes to your active recipe list or create your own recipe
+* Customize recipes to your dietary or palate needs
+* Save recipes you like to your cookbook
+* Get a dynamic grocery list based off your active recipe ingredients
 
 ## Description
 This project was created to meet requirements for Project 1 in General Assembly's Web Development Immersive Program (June 2014).
