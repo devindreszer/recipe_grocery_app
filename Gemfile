@@ -53,3 +53,9 @@ group :test do
   gem 'poltergeist'
   gem 'shoulda-matchers'
 end
+
+# Yummly API
+gem 'yummly', '~> 0.0.13'
+
+# Hide secret key
+gem 'dotenv-rails', groups: [:development, :test]
