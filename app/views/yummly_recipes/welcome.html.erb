@@ -1,0 +1,14 @@
+<h1>Customizable recipes, a personal cookbook, and a dynamic grocery list.
+<br>Cooking made simpler.</h1>
+
+<%= form_tag(yummly_recipes_path, method: "get") do %>
+  <%= text_field_tag :search, params[:search], placeholder: "Search for a Recipe" %>
+  <%= submit_tag "Search", name: nil %>
+<% end %>
+
+<h2>Browse Recipes</h2>
+<h2>Customize Recipes</h2>
+<h2>Create Recipes</h2>
+<h2>Active Recipe List</h2>
+<h2>Personal Cookbook</h2>
+<h2>Dynamic Grocery List</h2>

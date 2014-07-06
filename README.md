@@ -4,9 +4,10 @@ Customized recipes, personal cookbook, and a dynamic grocery list. Cooking made 
 
 ## Features
 * Find recipes from Yummly
-* Add recipes to your active recipe list or create your own recipe
+* Add recipes to your active recipe list
+* Create your own recipe
 * Customize recipes to your dietary or palate needs
-* Save recipes you like to your cookbook
+* Save recipes to your cookbook
 * Get a dynamic grocery list based off your active recipe ingredients
 
 ## Description
