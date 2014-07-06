@@ -1,0 +1,27 @@
+<div>
+  <%= image_tag(@yummly_recipe.images.first.large_url) %>
+</div>
+
+<div class="detail-title">
+  <h1><%= link_to @yummly_recipe.name, @yummly_recipe.attribution.url %></h1>
+</div>
+
+<div class="detail-rating">
+  <p><%= @yummly_recipe.rating %></p>
+</div>
+
+<div class="detail-preptime">
+  <p><%= @yummly_recipe.total_time %></p>
+</div>
+
+<hr>
+
+<div class="detail-ingredients">
+  <h3>Ingredients</h3>
+  <ul>
+   <% @yummly_recipe.ingredients.each do |ingredient| %>
+    <li><%= ingredient %></li>
+  <% end %>
+  </ul>
+</div>
+

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'User view features' do
+feature 'User views features' do
   scenario 'on the front page' do
     visit root_path
 

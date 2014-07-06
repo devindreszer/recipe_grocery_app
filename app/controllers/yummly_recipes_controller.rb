@@ -11,4 +11,8 @@ class YummlyRecipesController < ApplicationController
     end
     @yummly_recipes
   end
+
+  def show
+    @yummly_recipe = Yummly.find(params[:id])
+  end
 end
