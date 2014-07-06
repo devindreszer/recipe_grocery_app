@@ -59,3 +59,6 @@ gem 'yummly', '~> 0.0.13'
 
 # Hide secret key
 gem 'dotenv-rails', groups: [:development, :test]
+
+# devise
+gem 'devise'

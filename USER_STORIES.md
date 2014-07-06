@@ -17,6 +17,27 @@ When I click on a recipe from the homepage,
 I want to be able to see more information about the recipe,
 So that I can see if I would like to cook the dish
 
+## Sign Up/Sign In
+As a non-registered user,
+When I click on sign up in the nav bar,
+I want to be able to fill out a form and submit it to sign up,
+So that I can utilize all functions of the site
+
+As a registered user,
+When I click on sign in in the nav bar,
+I want to be able to fill out my email and password to sign in,
+So that I can access my information and utilize all functions of the site
+
+forgot password
+
+change profile
+
+As a signed in user,
+When I click log out,
+I want to be signed out of my account,
+So that nobody else can make changes to it without my permission
+
+
 ## My Active Recipes List
 As a signed in user,
 When I click add a recipe from it's details page,
