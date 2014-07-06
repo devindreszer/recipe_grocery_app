@@ -4,7 +4,11 @@ class YummlyRecipesController < ApplicationController
   end
 
   def index
-    @yummly_recipes = Yummly.search(params[:search]).recipes
+    ids = Yummly.search(params[:search]).recipes.map(&:id)
+    @yummly_recipes = []
+    ids.each do |id|
+      @yummly_recipes << Yummly.find(id)
+    end
+    @yummly_recipes
   end
-
 end

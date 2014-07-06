@@ -1,5 +1,2 @@
-<ul>
-  <% @yummly_recipes.each do |yummly_recipe| %>
-    <li><%= yummly_recipe.name %></li>
-  <% end %>
-</ul>
+<h1><%= params[:search] %></h1>
+<%= render partial: "yummly_recipe", collection: @yummly_recipes %>
