@@ -37,39 +37,12 @@ When I click log out,
 I want to be signed out of my account,
 So that nobody else can make changes to it without my permission
 
-
-## My Active Recipes List
-As a signed in user,
-When I click add a recipe from it's details page,
-I want it to be added to my active recipe list,
-So that I can get a dynamic grocery list based off the ingredients
-
-As a signed in user,
-When I visit my active recipe list page,
-I want to be able to remove a recipe from my active recipe list,
-If I decide that I no longer would like to cook that recipe or I cooked it and did not like it
-
-As a signed in user,
-When I click on a recipe from my active recipe list page,
-I want to be able to see more information about the recipe,
-So that I am able to cook or customize the dish
-
-As a signed in user,
-When I visit a recipes detail page,
-I want to be able to adjust the servings and see an updated list of ingredients,
-So that I can make the dish with the right ingredient quantities
-
-As a signed in user,
-When I visit a recipes detail page,
-I want to be able to add or remove ingredients,
-So that I can customize a dish to my dietary or palate needs
-
-As a signed in user,
-When I visit my active recipe list page,
-I want to be able to save an item to my cookbook,
-So that I can remove it from my active recipe list but have it saved for future cooking
-
 ## My Cookbook
+As a signed in user,
+When I click add to cookbook from it's details page,
+I want it to be added to my cookbook,
+So that I can have it saved for future cooking
+
 As a signed in user,
 When I visit my cookbook page,
 I want to see all of the recipes that I have saved,
@@ -96,9 +69,25 @@ I want to be able to add or remove ingredients,
 So that I can customize a dish to my dietary or palate needs
 
 As a signed in user,
-When I click add a recipe from my cookbook,
+When I click add to list from my cookbook,
 I want it to be added to my active recipe list,
 So that I can get a dynamic grocery list based off the ingredients
+
+## My Active Recipes List
+As a signed in user,
+When I visit my active recipe list page,
+I want see a list of all of my active recipes,
+So that I know what is being used to create my dynamic grocery list
+
+As a signed in user,
+When I visit my active recipe list page,
+I want to be able to remove a recipe from my active recipe list,
+If I have cooked the recipe or decide I know longer would like to cook the recipe
+
+As a signed in user,
+When I click on a recipe from my active recipe list page,
+I want to be able to see more information about the recipe,
+So that I am able to cook it
 
 ## My Grocery List
 As a signed in user,

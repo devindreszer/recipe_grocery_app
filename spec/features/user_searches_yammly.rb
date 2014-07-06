@@ -7,9 +7,9 @@ feature 'User searches for recipe' do
     fill_in "Search for a Recipe", with: 'Onion soup'
     click_button "Search"
 
-    expect(page).to have_css ".search-title", text: "French Onion Soup"
-    expect(page).to have_css ".search-title", text: "Onion and Bacon Soup"
-    expect(page).to have_css ".search-title", text:"Caramelized Balsamic-Red Onion Soup with Cheese-Topped Croutons"
-    expect(page).to have_css ".search-title", text: "French Onion Soup Grilled Cheese"
+    expect(page).to have_css ".list-title", text: "French Onion Soup"
+    expect(page).to have_css ".list-title", text: "Onion and Bacon Soup"
+    expect(page).to have_css ".list-title", text:"Caramelized Balsamic-Red Onion Soup with Cheese-Topped Croutons"
+    expect(page).to have_css ".list-title", text: "French Onion Soup Grilled Cheese"
   end
 end

@@ -7,10 +7,12 @@
 </div>
 
 <div class="detail-rating">
+  <h3>Rating</h3>
   <p><%= @yummly_recipe.rating %></p>
 </div>
 
 <div class="detail-preptime">
+  <h3>Prep Time</h3>
   <p><%= @yummly_recipe.total_time %></p>
 </div>
 
@@ -25,3 +27,6 @@
   </ul>
 </div>
 
+<hr>
+
+<%= link_to "Add to Cookbook", recipes_path(yummly_recipe_id: @yummly_recipe.id), method: :post %>

@@ -11,9 +11,9 @@
 * rating
 * servings
 * prep_time
+* url
 * is_custom
 * is_active
-* in_cookbook
 
 ## Ingredient
 * belongs_to recipe

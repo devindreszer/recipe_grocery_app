@@ -1,13 +1,13 @@
-# SousChef
+# PersonalSous
 
 Customized recipes, personal cookbook, and a dynamic grocery list. Cooking made simpler.
 
 ## Features
 * Find recipes from Yummly
-* Add recipes to your active recipe list
 * Create your own recipe
 * Customize recipes to your dietary or palate needs
 * Save recipes to your cookbook
+* Add recipes to your active recipe list
 * Get a dynamic grocery list based off your active recipe ingredients
 
 ## Description
